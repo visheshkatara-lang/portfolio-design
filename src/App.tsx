@@ -10,6 +10,7 @@ import StackSection from './components/StackSection';
 import ContactSection from './components/ContactSection';
 import MarketingGames from './components/MarketingGames';
 import InteractiveHighlights from './components/InteractiveHighlights';
+import { AutoPlayVideo } from './components/AutoPlayVideo';
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -54,14 +55,8 @@ export default function App() {
         <div className="w-full h-full relative rounded-[2.5rem] overflow-hidden bg-[#080808] border border-white/5">
           
           {/* Background Video */}
-          <video 
-            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_170732_8a9ccda6-5cff-4628-b164-059c500a2b41.mp4"
-            autoPlay 
-            loop 
-            muted 
-            playsInline
-            onLoadedMetadata={(e) => { e.currentTarget.muted = true; }}
-            ref={(el) => { if (el) { el.muted = true; el.play().catch(() => {}); } }}
+          <AutoPlayVideo 
+            src="/hero-bg.mp4"
             className="absolute inset-0 w-full h-full object-cover z-0 opacity-85 pointer-events-none"
           />
 
@@ -293,14 +288,8 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0, ease: [0.22, 1, 0.36, 1] }}
             className="rounded-[2rem] overflow-hidden relative border border-white/5 h-[340px] md:h-auto"
           >
-            <video 
-              src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260406_133058_0504132a-0cf3-4450-a370-8ea3b05c95d4.mp4"
-              autoPlay 
-              loop 
-              muted 
-              playsInline
-              onLoadedMetadata={(e) => { e.currentTarget.muted = true; }}
-              ref={(el) => { if (el) { el.muted = true; el.play().catch(() => {}); } }}
+            <AutoPlayVideo 
+              src="/work-bg.mp4"
               className="absolute inset-0 w-full h-full object-cover opacity-70 pointer-events-none"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10 pointer-events-none" />
@@ -319,14 +308,8 @@ export default function App() {
             className="rounded-[2rem] p-6 sm:p-8 relative overflow-hidden bg-[#101010] border border-white/5 flex flex-col justify-between h-[340px] md:h-auto hover:border-primary/20 hover:shadow-lg transition-all"
           >
             {/* Background Video (Automation & AI Workflows) */}
-            <video 
+            <AutoPlayVideo 
               src="/automation-ai-bg.mp4"
-              autoPlay 
-              loop 
-              muted 
-              playsInline
-              onLoadedMetadata={(e) => { e.currentTarget.muted = true; }}
-              ref={(el) => { if (el) { el.muted = true; el.play().catch(() => {}); } }}
               className="absolute inset-0 w-full h-full object-cover z-0 opacity-70 pointer-events-none"
             />
             
@@ -373,14 +356,8 @@ export default function App() {
             className="rounded-[2rem] p-6 sm:p-8 relative overflow-hidden bg-[#101010] border border-white/5 flex flex-col justify-between h-[340px] md:h-auto hover:border-primary/20 hover:shadow-lg transition-all"
           >
             {/* Background Video (Airplane Flight over Clouds) */}
-            <video 
+            <AutoPlayVideo 
               src="/event-ops-bg.mp4"
-              autoPlay 
-              loop 
-              muted 
-              playsInline
-              onLoadedMetadata={(e) => { e.currentTarget.muted = true; }}
-              ref={(el) => { if (el) { el.muted = true; el.play().catch(() => {}); } }}
               className="absolute inset-0 w-full h-full object-cover z-0 opacity-70 pointer-events-none"
             />
             
@@ -427,14 +404,8 @@ export default function App() {
             className="rounded-[2rem] p-6 sm:p-8 relative overflow-hidden bg-[#101010] border border-white/5 flex flex-col justify-between h-[340px] md:h-auto hover:border-primary/20 hover:shadow-lg transition-all"
           >
             {/* Background Video (Performance Marketing) */}
-            <video 
+            <AutoPlayVideo 
               src="/marketing-bg.mp4"
-              autoPlay 
-              loop 
-              muted 
-              playsInline
-              onLoadedMetadata={(e) => { e.currentTarget.muted = true; }}
-              ref={(el) => { if (el) { el.muted = true; el.play().catch(() => {}); } }}
               className="absolute inset-0 w-full h-full object-cover z-0 opacity-70 pointer-events-none"
             />
             
