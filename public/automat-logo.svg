@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Purple color theme typical of Automat: #5D2E8E -->
+  <g id="logo-mark" transform="translate(0, -5)">
+    <!-- Top swoosh -->
+    <path d="M 65 90 C 82 70 102 46 128 32 C 114 52 95 72 85 92 Z" fill="#9F7AEA" />
+    <!-- Middle swoosh -->
+    <path d="M 50 112 C 75 92 108 72 142 58 C 122 78 92 98 75 116 Z" fill="#805AD5" />
+    <!-- Bottom swoosh -->
+    <path d="M 35 135 C 70 112 118 92 165 82 C 135 102 90 120 60 142 Z" fill="#6B46C1" />
+  </g>
+  <!-- Text: AUTOMAT -->
+  <text x="100" y="158" font-family="'Inter', 'Helvetica Neue', sans-serif" font-weight="800" font-size="20" fill="#E2E8F0" letter-spacing="0.25em" text-anchor="middle">AUTOMAT</text>
+  <!-- Text: Creating a Green World -->
+  <text x="100" y="180" font-family="'Georgia', cursive, serif" font-style="italic" font-weight="bold" font-size="11" fill="#9F7AEA" text-anchor="middle">Creating a Green World</text>
+</svg>

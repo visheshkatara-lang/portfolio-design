@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 180" fill="none">
+  <!-- Rounded blue background box -->
+  <rect x="5" y="5" width="150" height="140" rx="12" fill="#0C4F9E" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+  
+  <!-- "NEWS" text at the top -->
+  <text x="80" y="38" font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="0.1em" text-anchor="middle">NEWS</text>
+  
+  <!-- Giant "2" inside the blue background -->
+  <text x="24" y="122" font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="80" fill="#FAC775">2</text>
+  
+  <!-- Giant "4" inside the blue background -->
+  <text x="82" y="122" font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="80" fill="#FAC775">4</text>
+  
+  <!-- Tagline underneath the blue block -->
+  <text x="80" y="168" font-family="'Inter', 'Arial', sans-serif" font-weight="850" font-size="15" fill="#E1E0CC" letter-spacing="0.08em" text-anchor="middle">Think First</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Stylized Eagle at the top -->
+  <g id="eagle" stroke="#FAC775" stroke-width="1.8" fill="none">
+    <!-- Wings left -->
+    <path d="M 100 65 C 80 40 50 35 30 45 C 45 52 65 60 80 68 C 60 62 40 60 25 70 C 45 74 65 76 85 78 C 65 78 45 80 35 92 C 55 90 75 88 92 84" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Wings right -->
+    <path d="M 100 65 C 120 40 150 35 170 45 C 155 52 135 60 120 68 C 140 62 160 60 175 70 C 155 74 135 76 115 78 C 135 78 155 80 165 92 C 145 90 125 88 108 84" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Eagle Head and Body -->
+    <path d="M 96 60 Q 100 48 104 60 C 105 65 106 72 100 78 C 94 72 95 65 96 60 Z" fill="#E1E0CC" opacity="0.9" />
+    <path d="M 98 52 L 100 48 L 102 52 Z" fill="#D85A30" />
+  </g>
+
+  <!-- Golden Circular Shield -->
+  <circle cx="100" cy="115" r="42" fill="#E1E0CC" stroke="#FAC775" stroke-width="2.5" />
+  <circle cx="100" cy="115" r="37" fill="none" stroke="#101010" stroke-width="1.2" stroke-dasharray="2 2" />
+  
+  <!-- Text inside Gold Seal (Arc paths for text orientation) -->
+  <path id="textPathUpper" d="M 68 115 A 32 32 0 0 1 132 115" fill="none" />
+  <text font-family="'Inter', sans-serif" font-size="8.5" font-weight="900" fill="#101010" letter-spacing="1.1">
+    <textPath href="#textPathUpper" startOffset="50%" text-anchor="middle">BHARATI</textPath>
+  </text>
+  
+  <path id="textPathLower" d="M 132 115 A 32 32 0 0 1 68 115" fill="none" />
+  <text font-family="'Inter', sans-serif" font-size="8" font-weight="900" fill="#101010" letter-spacing="0.8">
+    <textPath href="#textPathLower" startOffset="50%" text-anchor="middle">VIDYAPEETH</textPath>
+  </text>
+
+  <!-- Inner Pink/Magenta circle (represented beautifully using orange/coral gradient to fit the app theme colors) -->
+  <circle cx="100" cy="115" r="23" fill="#D85A30" stroke="#FFFFFF" stroke-width="1.2" />
+  
+  <!-- Map of India silhouette inside core -->
+  <path d="M 96 106 Q 100 101 104 105 T 103 115 T 100 124 T 96 118 T 96 106" fill="#FAC775" />
+  <circle cx="100" cy="114" r="1.5" fill="#FFFFFF" />
+
+  <!-- Blue/Slate Banner at the bottom -->
+  <path d="M 38 152 Q 100 164 162 152 L 152 170 Q 100 182 48 170 Z" fill="#2E5D8F" stroke="#FFFFFF" stroke-width="1.2" />
+  
+  <!-- Text on Banner: DEEMED UNIVERSITY -->
+  <path id="bannerTextPath" d="M 44 163 Q 100 175 156 163" fill="none" />
+  <text font-family="'Inter', sans-serif" font-size="8" font-weight="900" fill="#FFFFFF" letter-spacing="1">
+    <textPath href="#bannerTextPath" startOffset="50%" text-anchor="middle">DEEMED UNIVERSITY</textPath>
+  </text>
+
+  <!-- PUNE Ribbon Accent -->
+  <rect x="80" y="174" width="40" height="12" rx="3" fill="#FAC775" stroke="#101010" stroke-width="1" />
+  <text x="100" y="183" font-family="'Inter', sans-serif" font-weight="900" font-size="8.5" fill="#101010" text-anchor="middle" letter-spacing="1">PUNE</text>
+</svg>

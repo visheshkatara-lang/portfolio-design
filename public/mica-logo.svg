@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- MICA Triangle Brandmark -->
+  <g stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Outer Triangle -->
+    <path d="M 60 12 L 18 85 L 102 85 Z" fill="none" />
+    <!-- Inside geometric segments -->
+    <path d="M 60 12 L 60 52 L 84 85" fill="none" stroke-width="2" />
+    <path d="M 60 52 L 40 85" fill="none" stroke-width="2" />
+  </g>
+  
+  <!-- MICA stylized text -->
+  <text x="60" y="102" font-family="'Inter', 'Helvetica Neue', sans-serif" font-weight="900" font-size="15" fill="#FFFFFF" letter-spacing="0.2em" text-anchor="middle">MICA</text>
+  
+  <!-- THE SCHOOL OF IDEAS tagline -->
+  <text x="60" y="114" font-family="'Inter', sans-serif" font-weight="700" font-size="6.5" fill="#AAAAAA" letter-spacing="0.08em" text-anchor="middle">THE SCHOOL OF IDEAS</text>
+</svg>
